@@ -1,0 +1,43 @@
+:root {
+  --backgroundColor: #663399;
+  --textColor: #fff;
+}
+
+.luminance {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  color: var(--textColor);
+}
+
+body {
+  background-color: var(--backgroundColor);
+}
+
+html,
+body {
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 4em;
+  display: block;
+  color: var(--textColor);
+}
+
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+
+.content {
+  text-align: center;
+}
